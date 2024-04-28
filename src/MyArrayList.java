@@ -169,8 +169,6 @@ public class MyArrayList<bro> implements MyList<bro> {
             return nextItem;
         }
     }
-
-
     @Override
     public Iterator<bro> iterator() {
         return new MyIterator();

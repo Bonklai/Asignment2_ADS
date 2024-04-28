@@ -1,4 +1,4 @@
-import java.util.Iterator;
+
 
 public interface MyList<T> extends Iterable {
     void add(T item);

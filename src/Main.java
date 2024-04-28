@@ -1,9 +1,9 @@
-
+import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
-        MyLinkedList<Integer> list = new MyLinkedList<>();
-        MyArrayList<Integer> arr = new MyArrayList<>();
+//        MyLinkedList<Integer> list = new MyLinkedList<>();
+//        MyArrayList<Integer> arr = new MyArrayList<>();
 //        arr.add(2);
 //        arr.add(5);
 //        arr.add(1);
@@ -16,14 +16,15 @@ public class Main {
 //        arr.printArr();
 //        arr.clear();
 //        arr.printArr();
-        list.add(3);
-        list.add(1);
-        list.add(2);
-        list.add(4);
-        list.add(6);
+//        list.add(3);
+//        list.add(1);
+//        list.add(2);
+//        list.add(4);
+//        list.add(6);
+//
+//        list.remove(2);
+//        list.printList();
 
-        list.remove(2);
-        list.printList();
 
 
     }

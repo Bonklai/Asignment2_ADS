@@ -146,22 +146,22 @@ public class MyLinkedList<T> implements MyList<T> {
 
     @Override
     public void clear() {
-        head=tail=null;
+        head=tail=null; //some easy code
         size = 0;
     }
 
     @Override
     public int size() {
-        return size;
+        return size; //too easy
     }
 
 
     public T get(int index){
         MyNode<T> current = head;
-        for(int i =0;i<index;i++){
+        for(int i =0;i<index;i++){ //we will go to next till the need element
             current = current.next;
         }
-        return current.data;
+        return current.data; //after we just return the data
     }
 
     @Override
@@ -190,13 +190,10 @@ public class MyLinkedList<T> implements MyList<T> {
 
     public void printList(){
         for(int i=0;i<size;i++){
-            System.out.print(get(i));
+            System.out.print(get(i)); //it's just optional
             System.out.print(' ');
         }
     }
-
-
-    
     public Iterator<T> iterator(){
         return  new MyIterator();
     }
@@ -225,6 +222,4 @@ public class MyLinkedList<T> implements MyList<T> {
             next = null;
         }
     }
-
-
 }
